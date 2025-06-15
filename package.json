@@ -1,0 +1,11 @@
+{
+  "name": "app-version-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node generate_dashboard.js"
+  },
+  "dependencies": {
+    "google-play-scraper": "^10.0.1"
+  }
+}

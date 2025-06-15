@@ -1,0 +1,81 @@
+[
+  {
+    "env": "SWE06",
+    "name": "Sundsvall",
+    "androidPackage": "com.cuviva.companion.sundsvall",
+    "iosAppId": "1611138820"
+  },
+  {
+    "env": "SWE09",
+    "name": "Mölndals Stad",
+    "androidPackage": "com.cuviva.companion.molndal",
+    "iosAppId": "1593818527"
+  },
+  {
+    "env": "SWE12",
+    "name": "Åsele Dorotea",
+    "androidPackage": "com.cuviva.companion.vasterbotten",
+    "iosAppId": "1638872803"
+  },
+  {
+    "env": "SWE18",
+    "name": "Region Stockholm / Projekt Distansmonitorering",
+    "androidPackage": "com.cuviva.companion.sll",
+    "iosAppId": "1611138822"
+  },
+  {
+    "env": "SWE20",
+    "name": "HealthyMoms",
+    "androidPackage": "com.cuviva.companion.spark",
+    "iosAppId": "1638872795"
+  },
+  {
+    "env": "SWE21",
+    "name": "MINISTOP",
+    "androidPackage": "com.cuviva.companion.ministop",
+    "iosAppId": "6444723282"
+  },
+  {
+    "env": "SWE22",
+    "name": "Sand Clinic",
+    "androidPackage": "com.cuviva.companion.sandclinic",
+    "iosAppId": "6466197588"
+  },
+  {
+    "env": "SWE23",
+    "name": "Tyresö för mig",
+    "androidPackage": "com.cuviva.companion.tyreso",
+    "iosAppId": "6466817227"
+  },
+  {
+    "env": "SWE24",
+    "name": "Aleris",
+    "androidPackage": "com.cuviva.companion.aleris",
+    "iosAppId": "6475716762"
+  },
+  {
+    "env": "SWE25",
+    "name": "Performance Center",
+    "androidPackage": "com.cuviva.companion.performancecenter",
+    "iosAppId": "6475716739"
+  },
+  {
+    "env": "SWE26",
+    "name": "Vallentuna Hemma",
+    "androidPackage": "com.cuviva.companion.vallentuna",
+    "iosAppId": "6743545836"
+  },
+  {
+    "env": "SWE27",
+    "name": "MINISTOP VGR",
+    "androidPackage": "com.cuviva.companion.ministopvgr",
+    "iosAppId": "6670401281"
+  },
+  {
+    "env": "SWE28",
+    "name": "Nära vård Dalarna v2",
+    "androidPackage": "com.cuviva.companion.dalarna",
+    "iosAppId": "6742241997",
+    "customerId": "7a5b5151-294f-4a34-bc4c-9c31b72692b1"
+  }
+]

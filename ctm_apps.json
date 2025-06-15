@@ -1,0 +1,62 @@
+[
+  {
+    "env": "SWE06",
+    "name": "Sundsvalls Kommun Personal",
+    "androidPackage": "com.cuviva.controltower.sundsvall",
+    "iosAppId": "6459446606"
+  },
+  {
+    "env": "SWE09",
+    "name": "Mölndals CTM",
+    "androidPackage": "com.cuviva.controltower.swe09",
+    "iosAppId": "6447418294"
+  },
+  {
+    "env": "SWE11",
+    "name": "Hemsjukhuset Personal",
+    "androidPackage": "com.cuviva.controltower.swe11",
+    "iosAppId": "1669231449"
+  },
+  {
+    "env": "SWE12",
+    "name": "Cuviva Dorotea Åsele",
+    "androidPackage": "com.cuviva.controltower.swe12",
+    "iosAppId": "6446237791"
+  },
+  {
+    "env": "SWE18",
+    "name": "Region Stockholm CTM",
+    "androidPackage": "com.cuviva.controltower.regionstockholm",
+    "iosAppId": "6475756101"
+  },
+  {
+    "env": "SWE22",
+    "name": "Sand Clinic",
+    "androidPackage": "com.cuviva.controltower.sandclinic",
+    "iosAppId": "6475756193"
+  },
+  {
+    "env": "SWE23",
+    "name": "Tyresö för mig - Personal",
+    "androidPackage": "com.cuviva.controltower.tyreso",
+    "iosAppId": "6475756271"
+  },
+  {
+    "env": "SWE24",
+    "name": "Aleris",
+    "androidPackage": "com.cuviva.controltower.aleris",
+    "iosAppId": "6475756127"
+  },
+  {
+    "env": "SWE25",
+    "name": "Performance Center CTM",
+    "androidPackage": "com.cuviva.controltower.performancecenter",
+    "iosAppId": "6475756016"
+  },
+  {
+    "env": "SWE27",
+    "name": "MINISTOP VGR Personal",
+    "androidPackage": "com.cuviva.controltower.vgr",
+    "iosAppId": "6670465438"
+  }
+]
