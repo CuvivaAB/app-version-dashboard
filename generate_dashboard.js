@@ -89,7 +89,7 @@ async function fetchMinimumVersion(customer) {
   }
 }
 
-async function fetchVersions(app) {
+async function fetchVersions(app ,includeRequiredVersion = true) {
   let androidVersion = 'Error';
   let iosVersion = 'Error';
   let requiredVersion = 'Error';
@@ -111,7 +111,9 @@ async function fetchVersions(app) {
     iosVersion = 'Fetch Error';
   }
 
-  requiredVersion = await fetchMinimumVersion(customerEnvMapping[app.env]);
+  if(includeRequiredVersion) {
+    requiredVersion = await fetchMinimumVersion(customerEnvMapping[app.env]);
+  }
 
   return {
     ...app,
@@ -122,8 +124,8 @@ async function fetchVersions(app) {
 }
 
 async function generateHTML() {
-  const cmResults = await Promise.all(cmApps.map(fetchVersions));
-  const ctmResults = await Promise.all(ctmApps.map(fetchVersions));
+  const cmResults = await Promise.all(cmApps.map(app => fetchVersions(app)));
+  const ctmResults = await Promise.all(ctmApps.map(app => fetchVersions(app, false)));
 
   const cmRows = cmResults.map(app => `
     <tr>
