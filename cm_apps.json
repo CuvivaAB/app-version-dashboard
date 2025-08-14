@@ -77,5 +77,19 @@
     "androidPackage": "com.cuviva.companion.dalarna",
     "iosAppId": "6742241997",
     "customerId": "7a5b5151-294f-4a34-bc4c-9c31b72692b1"
+  },
+  {
+    "env": "SWE05",
+    "name": "Alphatron Zorgverbinding",
+    "androidPackage": "com.cuviva.companion.alphatron",
+    "iosAppId": "6749691243",
+    "customerId": "508b2c5e-85d7-4f44-b721-6dd2cd4f3c9a"
+  },
+  {
+    "env": "SWE10",
+    "name": "Asker (TryggHjemme)",
+    "androidPackage": "com.cuviva.companion.asker",
+    "iosAppId": "6749691277",
+    "customerId": "9888f685-def6-4fcb-abf1-7042a7158a90"
   }
 ]
