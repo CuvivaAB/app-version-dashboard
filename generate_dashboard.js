@@ -1,7 +1,7 @@
 import fs from 'fs';
 import gplay from 'google-play-scraper';
 
-// No need to import fetch — it's globally available in Node 18+
+// Using built-in fetch API available in Node.js v18+
 const cmApps = JSON.parse(fs.readFileSync('cm_apps.json', 'utf8'));
 const ctmApps = JSON.parse(fs.readFileSync('ctm_apps.json', 'utf8'));
 
@@ -93,12 +93,17 @@ async function fetchVersions(app ,includeRequiredVersion = true) {
   let androidVersion = 'Error';
   let iosVersion = 'Error';
   let requiredVersion = 'Error';
+  let androidUpdateDate = 'Error';
+  let iosUpdateDate = 'Error';
 
   try {
     const gplayData = await gplay.app({ appId: app.androidPackage });
     androidVersion = gplayData.version;
+    // Google Play updated date is available in the response
+    androidUpdateDate = gplayData.updated ? new Date(gplayData.updated).toLocaleDateString('sv-SE') : 'N/A';
   } catch (e) {
     androidVersion = 'Fetch Error';
+    androidUpdateDate = 'Fetch Error';
   }
 
   try {
@@ -106,9 +111,14 @@ async function fetchVersions(app ,includeRequiredVersion = true) {
     const iosData = await iosRes.json();
     if (iosData.resultCount > 0) {
       iosVersion = iosData.results[0].version;
+      // iTunes API provides currentVersionReleaseDate
+      iosUpdateDate = iosData.results[0].currentVersionReleaseDate 
+        ? new Date(iosData.results[0].currentVersionReleaseDate).toLocaleDateString('sv-SE') 
+        : 'N/A';
     }
   } catch (e) {
     iosVersion = 'Fetch Error';
+    iosUpdateDate = 'Fetch Error';
   }
 
   if(includeRequiredVersion) {
@@ -119,7 +129,9 @@ async function fetchVersions(app ,includeRequiredVersion = true) {
     ...app,
     androidVersion,
     iosVersion,
-    requiredVersion
+    requiredVersion,
+    androidUpdateDate,
+    iosUpdateDate
   };
 }
 
@@ -131,8 +143,8 @@ async function generateHTML() {
     <tr>
       <td>${app.env}</td>
       <td>${app.name}</td>
-      <td>${app.androidVersion}</td>
-      <td>${app.iosVersion}</td>
+      <td>${app.androidVersion}<br><small style="color: #666;">${app.androidUpdateDate}</small></td>
+      <td>${app.iosVersion}<br><small style="color: #666;">${app.iosUpdateDate}</small></td>
       <td>${app.requiredVersion}</td>
       <td><a href="https://play.google.com/store/apps/details?id=${app.androidPackage}" target="_blank">Play Store</a></td>
       <td><a href="https://apps.apple.com/app/id${app.iosAppId}" target="_blank">App Store</a></td>
@@ -143,8 +155,8 @@ async function generateHTML() {
     <tr>
       <td>${app.env}</td>
       <td>${app.name}</td>
-      <td>${app.androidVersion}</td>
-      <td>${app.iosVersion}</td>
+      <td>${app.androidVersion}<br><small style="color: #666;">${app.androidUpdateDate}</small></td>
+      <td>${app.iosVersion}<br><small style="color: #666;">${app.iosUpdateDate}</small></td>
       <td><a href="https://play.google.com/store/apps/details?id=${app.androidPackage}" target="_blank">Play Store</a></td>
       <td><a href="https://apps.apple.com/app/id${app.iosAppId}" target="_blank">App Store</a></td>
     </tr>
