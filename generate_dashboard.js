@@ -100,7 +100,14 @@ async function fetchVersions(app ,includeRequiredVersion = true) {
     const gplayData = await gplay.app({ appId: app.androidPackage });
     androidVersion = gplayData.version;
     // Google Play updated date is available in the response
-    androidUpdateDate = gplayData.updated ? new Date(gplayData.updated).toLocaleDateString('sv-SE') : 'N/A';
+    androidUpdateDate = gplayData.updated ? new Date(gplayData.updated).toLocaleString('sv-SE', {
+      timeZone: 'Europe/Stockholm',
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    }) : 'N/A';
   } catch (e) {
     androidVersion = 'Fetch Error';
     androidUpdateDate = 'Fetch Error';
@@ -113,7 +120,14 @@ async function fetchVersions(app ,includeRequiredVersion = true) {
       iosVersion = iosData.results[0].version;
       // iTunes API provides currentVersionReleaseDate
       iosUpdateDate = iosData.results[0].currentVersionReleaseDate 
-        ? new Date(iosData.results[0].currentVersionReleaseDate).toLocaleDateString('sv-SE') 
+        ? new Date(iosData.results[0].currentVersionReleaseDate).toLocaleString('sv-SE', {
+            timeZone: 'Europe/Stockholm',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          }) 
         : 'N/A';
     }
   } catch (e) {
