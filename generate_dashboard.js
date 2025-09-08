@@ -6,25 +6,9 @@ const cmApps = JSON.parse(fs.readFileSync('cm_apps.json', 'utf8'));
 const ctmApps = JSON.parse(fs.readFileSync('ctm_apps.json', 'utf8'));
 
 const customerEnvMapping = {
-  "SWE21": {
-    customerId: "342285c8-9e14-4fd8-b5dc-a26847d7594a",
-    url: "https://swe21.fapi.ck8s.cuvivapro.com/graphql"
-  },
-  "SWE20": {
-    customerId: "7cfad80c-62bc-48ef-8792-4d4a0ca3b59f",
-    url: "https://swe20.fapi.ck8s.cuvivapro.com/graphql"
-  },
-  "SWE28": {
-    customerId: "7a5b5151-294f-4a34-bc4c-9c31b72692b1",
-    url: "https://swe28.fapi.ck8s.cuvivapro.com/graphql"
-  },
-  "SWE24": {
-    customerId: "54731e7a-24bb-4f06-a97e-cd6697dbda89",
-    url: "https://swe24.fapi.ck8s.cuvivapro.com/graphql"
-  },
-  "SWE22": {
-    customerId: "164c44cc-ccb0-4c3c-94fb-d71016da6e88",
-    url: "https://swe22.fapi.ck8s.cuvivapro.com/graphql"
+  "SWE05": {
+    customerId: "508b2c5e-85d7-4f44-b721-6dd2cd4f3c9a",
+    url: "https://swe05.fapi.ck8s.cuvivapro.com/graphql"
   },
   "SWE06": {
     customerId: "6d079766-16a0-4b6d-b282-c5ce01c1e645",
@@ -34,17 +18,41 @@ const customerEnvMapping = {
     customerId: "75aa75db-deac-4e8c-9217-7374cd3540c4",
     url: "https://swe09.fapi.ck8s.cuvivapro.com/graphql"
   },
+  "SWE10": {
+    customerId: "9888f685-def6-4fcb-abf1-7042a7158a90",
+    url: "https://swe10.fapi.ck8s.cuvivapro.com/graphql"
+  },
   "SWE12": {
     customerId: "c936e79c-d9c0-485d-90a6-ce97866115dc",
     url: "https://swe12.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  "SWE17": {
+    customerId: "78bf483e-a81f-4c8d-9619-79c859c87275",
+    url: "https://swe17.fapi.ck8s.cuvivapro.com/graphql"
   },
   "SWE18": {
     customerId: "6a83ed6a-42af-4aec-939c-97f1df176a74",
     url: "https://swe18.fapi.ck8s.cuvivapro.com/graphql"
   },
+  "SWE20": {
+    customerId: "7cfad80c-62bc-48ef-8792-4d4a0ca3b59f",
+    url: "https://swe20.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  "SWE21": {
+    customerId: "342285c8-9e14-4fd8-b5dc-a26847d7594a",
+    url: "https://swe21.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  "SWE22": {
+    customerId: "164c44cc-ccb0-4c3c-94fb-d71016da6e88",
+    url: "https://swe22.fapi.ck8s.cuvivapro.com/graphql"
+  },
   "SWE23": {
     customerId: "e59cd4d0-ee0f-44e1-bdeb-9a8366738803",
     url: "https://swe23.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  "SWE24": {
+    customerId: "54731e7a-24bb-4f06-a97e-cd6697dbda89",
+    url: "https://swe24.fapi.ck8s.cuvivapro.com/graphql"
   },
   "SWE25": {
     customerId: "ad78cc98-8d1c-497a-ab80-caaa93ede5a4",
@@ -57,6 +65,10 @@ const customerEnvMapping = {
   "SWE27": {
     customerId: "8cee4d07-cecf-4ecf-a10e-aa3b87faf7c7",
     url: "https://swe27.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  "SWE28": {
+    customerId: "7a5b5151-294f-4a34-bc4c-9c31b72692b1",
+    url: "https://swe28.fapi.ck8s.cuvivapro.com/graphql"
   }
 };
 
