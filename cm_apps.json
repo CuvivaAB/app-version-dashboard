@@ -1,4 +1,10 @@
-[
+[ 
+  {
+    "env": "SWE05",
+    "name": "Alphatron (Zorgverbinding)",
+    "androidPackage": "com.cuviva.companion.alphatron",
+    "iosAppId": "6749691243"
+  },
   {
     "env": "SWE06",
     "name": "Sundsvall",
@@ -12,10 +18,22 @@
     "iosAppId": "1593818527"
   },
   {
+    "env": "SWE10",
+    "name": "Asker (TryggHjemme)",
+    "androidPackage": "com.cuviva.companion.asker",
+    "iosAppId": "6749691277"
+  },
+  {
     "env": "SWE12",
     "name": "Åsele Dorotea",
     "androidPackage": "com.cuviva.companion.vasterbotten",
     "iosAppId": "1638872803"
+  },
+  {
+    "env": "SWE17",
+    "name": "GPN@Home",
+    "androidPackage": "com.cuviva.companion.gpn",
+    "iosAppId": "6749691229"
   },
   {
     "env": "SWE18",
