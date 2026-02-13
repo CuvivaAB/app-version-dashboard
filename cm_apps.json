@@ -1,5 +1,19 @@
 [ 
   {
+    "env": "SWE02",
+    "name": "Jönköping",
+    "androidPackage": "com.cuviva.companion.jonkoping",
+    "iosAppId": "6753710512",
+    "customerId": "d6f9f4b0-87ae-431a-90cd-5cee2d8a7bc1"
+  },
+  {
+    "env": "SWE03",
+    "name": "Uddevalla",
+    "androidPackage": "com.cuviva.companion.uddevalla",
+    "iosAppId": "6753586051",
+    "customerId": "a54cc917-8bdc-40c6-a510-ffacd8c33544"
+  },
+  {
     "env": "SWE05",
     "name": "Alphatron (Zorgverbinding)",
     "androidPackage": "com.cuviva.companion.alphatron",
@@ -54,12 +68,6 @@
     "iosAppId": "6444723282"
   },
   {
-    "env": "SWE22",
-    "name": "Sand Clinic",
-    "androidPackage": "com.cuviva.companion.sandclinic",
-    "iosAppId": "6466197588"
-  },
-  {
     "env": "SWE23",
     "name": "Tyresö för mig",
     "androidPackage": "com.cuviva.companion.tyreso",
@@ -73,9 +81,9 @@
   },
   {
     "env": "SWE25",
-    "name": "Performance Center",
-    "androidPackage": "com.cuviva.companion.performancecenter",
-    "iosAppId": "6475716739"
+    "name": "Discovery",
+    "androidPackage": "com.cuviva.companion.discovery",
+    "iosAppId": "6758046278"
   },
   {
     "env": "SWE26",
