@@ -3,60 +3,56 @@
     "env": "SWE06",
     "name": "Sundsvalls Kommun Personal",
     "androidPackage": "com.cuviva.controltower.sundsvall",
-    "iosAppId": "6459446606"
+    "iosAppId": "6459446606",
+    "customerId": "6d079766-16a0-4b6d-b282-c5ce01c1e645",
+    "fapiBaseUrl": "https://swe06.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE09",
     "name": "Mölndals CTM",
     "androidPackage": "com.cuviva.controltower.swe09",
-    "iosAppId": "6447418294"
-  },
-  {
-    "env": "SWE11",
-    "name": "Hemsjukhuset Personal",
-    "androidPackage": "com.cuviva.controltower.swe11",
-    "iosAppId": "1669231449"
+    "iosAppId": "6447418294",
+    "customerId": "75aa75db-deac-4e8c-9217-7374cd3540c4",
+    "fapiBaseUrl": "https://swe09.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE12",
     "name": "Cuviva Dorotea Åsele",
     "androidPackage": "com.cuviva.controltower.swe12",
-    "iosAppId": "6446237791"
+    "iosAppId": "6446237791",
+    "customerId": "c936e79c-d9c0-485d-90a6-ce97866115dc",
+    "fapiBaseUrl": "https://swe12.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE18",
     "name": "Region Stockholm CTM",
     "androidPackage": "com.cuviva.controltower.regionstockholm",
-    "iosAppId": "6475756101"
-  },
-  {
-    "env": "SWE22",
-    "name": "Sand Clinic",
-    "androidPackage": "com.cuviva.controltower.sandclinic",
-    "iosAppId": "6475756193"
+    "iosAppId": "6475756101",
+    "customerId": "6a83ed6a-42af-4aec-939c-97f1df176a74",
+    "fapiBaseUrl": "https://swe18.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE23",
     "name": "Tyresö för mig - Personal",
     "androidPackage": "com.cuviva.controltower.tyreso",
-    "iosAppId": "6475756271"
+    "iosAppId": "6475756271",
+    "customerId": "e59cd4d0-ee0f-44e1-bdeb-9a8366738803",
+    "fapiBaseUrl": "https://swe23.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE24",
     "name": "Aleris",
     "androidPackage": "com.cuviva.controltower.aleris",
-    "iosAppId": "6475756127"
-  },
-  {
-    "env": "SWE25",
-    "name": "Performance Center CTM",
-    "androidPackage": "com.cuviva.controltower.performancecenter",
-    "iosAppId": "6475756016"
+    "iosAppId": "6475756127",
+    "customerId": "54731e7a-24bb-4f06-a97e-cd6697dbda89",
+    "fapiBaseUrl": "https://swe24.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE27",
     "name": "MINISTOP VGR Personal",
     "androidPackage": "com.cuviva.controltower.vgr",
-    "iosAppId": "6670465438"
+    "iosAppId": "6670465438",
+    "customerId": "8cee4d07-cecf-4ecf-a10e-aa3b87faf7c7",
+    "fapiBaseUrl": "https://swe27.fapi.ck8s.cuvivapro.com/graphql"
   }
 ]

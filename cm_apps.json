@@ -4,104 +4,135 @@
     "name": "Jönköping",
     "androidPackage": "com.cuviva.companion.jonkoping",
     "iosAppId": "6753710512",
-    "customerId": "d6f9f4b0-87ae-431a-90cd-5cee2d8a7bc1"
+    "customerId": "d6f9f4b0-87ae-431a-90cd-5cee2d8a7bc1",
+    "fapiBaseUrl": "https://swe02.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE03",
     "name": "Uddevalla",
     "androidPackage": "com.cuviva.companion.uddevalla",
     "iosAppId": "6753586051",
-    "customerId": "a54cc917-8bdc-40c6-a510-ffacd8c33544"
+    "customerId": "a54cc917-8bdc-40c6-a510-ffacd8c33544",
+    "fapiBaseUrl": "https://swe03.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE05",
     "name": "Alphatron (Zorgverbinding)",
     "androidPackage": "com.cuviva.companion.alphatron",
-    "iosAppId": "6749691243"
+    "iosAppId": "6749691243",
+    "customerId": "508b2c5e-85d7-4f44-b721-6dd2cd4f3c9a",
+    "fapiBaseUrl": "https://swe05.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE06",
     "name": "Sundsvall",
     "androidPackage": "com.cuviva.companion.sundsvall",
-    "iosAppId": "1611138820"
+    "iosAppId": "1611138820",
+    "customerId": "6d079766-16a0-4b6d-b282-c5ce01c1e645",
+    "fapiBaseUrl": "https://swe06.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE09",
     "name": "Mölndals Stad",
     "androidPackage": "com.cuviva.companion.molndal",
-    "iosAppId": "1593818527"
+    "iosAppId": "1593818527",
+    "customerId": "75aa75db-deac-4e8c-9217-7374cd3540c4",
+    "fapiBaseUrl": "https://swe09.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE10",
     "name": "Asker (TryggHjemme)",
     "androidPackage": "com.cuviva.companion.asker",
-    "iosAppId": "6749691277"
+    "iosAppId": "6749691277",
+    "customerId": "9888f685-def6-4fcb-abf1-7042a7158a90",
+    "fapiBaseUrl": "https://swe10.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE12",
     "name": "Åsele Dorotea",
     "androidPackage": "com.cuviva.companion.vasterbotten",
-    "iosAppId": "1638872803"
+    "iosAppId": "1638872803",
+    "customerId": "c936e79c-d9c0-485d-90a6-ce97866115dc",
+    "fapiBaseUrl": "https://swe12.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE17",
     "name": "GPN@Home",
     "androidPackage": "com.cuviva.companion.gpn",
-    "iosAppId": "6749691229"
+    "iosAppId": "6749691229",
+    "customerId": "78bf483e-a81f-4c8d-9619-79c859c87275",
+    "fapiBaseUrl": "https://swe17.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE18",
     "name": "Region Stockholm / Projekt Distansmonitorering",
     "androidPackage": "com.cuviva.companion.sll",
-    "iosAppId": "1611138822"
+    "iosAppId": "1611138822",
+    "customerId": "6a83ed6a-42af-4aec-939c-97f1df176a74",
+    "fapiBaseUrl": "https://swe18.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE20",
     "name": "HealthyMoms",
     "androidPackage": "com.cuviva.companion.spark",
-    "iosAppId": "1638872795"
+    "iosAppId": "1638872795",
+    "customerId": "7cfad80c-62bc-48ef-8792-4d4a0ca3b59f",
+    "fapiBaseUrl": "https://swe20.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE21",
     "name": "MINISTOP",
     "androidPackage": "com.cuviva.companion.ministop",
-    "iosAppId": "6444723282"
+    "iosAppId": "6444723282",
+    "customerId": "342285c8-9e14-4fd8-b5dc-a26847d7594a",
+    "fapiBaseUrl": "https://swe21.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE23",
     "name": "Tyresö för mig",
     "androidPackage": "com.cuviva.companion.tyreso",
-    "iosAppId": "6466817227"
+    "iosAppId": "6466817227",
+    "customerId": "e59cd4d0-ee0f-44e1-bdeb-9a8366738803",
+    "fapiBaseUrl": "https://swe23.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE24",
     "name": "Aleris",
     "androidPackage": "com.cuviva.companion.aleris",
-    "iosAppId": "6475716762"
+    "iosAppId": "6475716762",
+    "customerId": "54731e7a-24bb-4f06-a97e-cd6697dbda89",
+    "fapiBaseUrl": "https://swe24.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE25",
     "name": "Discovery",
     "androidPackage": "com.cuviva.companion.discovery",
-    "iosAppId": "6758046278"
+    "iosAppId": "6758046278",
+    "customerId": "ad78cc98-8d1c-497a-ab80-caaa93ede5a4",
+    "fapiBaseUrl": "https://swe25.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE26",
     "name": "Vallentuna Hemma",
     "androidPackage": "com.cuviva.companion.vallentuna",
-    "iosAppId": "6743545836"
+    "iosAppId": "6743545836",
+    "customerId": "36980b95-8b94-4077-86bb-1e79895a6a6e",
+    "fapiBaseUrl": "https://swe26.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE27",
     "name": "MINISTOP VGR",
     "androidPackage": "com.cuviva.companion.ministopvgr",
-    "iosAppId": "6670401281"
+    "iosAppId": "6670401281",
+    "customerId": "8cee4d07-cecf-4ecf-a10e-aa3b87faf7c7",
+    "fapiBaseUrl": "https://swe27.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE28",
     "name": "Nära vård Dalarna v2",
     "androidPackage": "com.cuviva.companion.dalarna",
     "iosAppId": "6742241997",
-    "customerId": "7a5b5151-294f-4a34-bc4c-9c31b72692b1"
+    "customerId": "7a5b5151-294f-4a34-bc4c-9c31b72692b1",
+    "fapiBaseUrl": "https://swe28.fapi.ck8s.cuvivapro.com/graphql"
   }
 ]
