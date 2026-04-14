@@ -56,6 +56,14 @@
     "fapiBaseUrl": "https://swe12.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
+    "env": "SWE13",
+    "name": "Vård Omsorg Kristianstad",
+    "androidPackage": "com.cuviva.companion.kristianstad",
+    "iosAppId": "6760889270",
+    "customerId": "fe5c4007-04bb-4247-94c9-102f34960f26",
+    "fapiBaseUrl": "https://swe13.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  {
     "env": "SWE17",
     "name": "GPN@Home",
     "androidPackage": "com.cuviva.companion.gpn",
