@@ -24,6 +24,14 @@
     "fapiBaseUrl": "https://swe12.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
+    "env": "SWE13",
+    "name": "VO Personal Kristianstad",
+    "androidPackage": "com.cuviva.controltower.kristianstad",
+    "iosAppId": "6761245510",
+    "customerId": "fe5c4007-04bb-4247-94c9-102f34960f26",
+    "fapiBaseUrl": "https://swe13.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  {
     "env": "SWE18",
     "name": "Region Stockholm CTM",
     "androidPackage": "com.cuviva.controltower.regionstockholm",
