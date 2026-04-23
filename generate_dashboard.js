@@ -134,7 +134,7 @@ async function generateHTML() {
       <td>${app.iosVersion}<br><small style="color: #666;">${app.iosUpdateDate != 'N/A' ? app.iosUpdateDate : ''}</small></td>
       <td>${app.requiredVersion}</td>
       <td><a href="https://play.google.com/store/apps/details?id=${app.androidPackage}" target="_blank">Play Store</a></td>
-      <td><a href="https://apps.apple.com/app/id${app.iosAppId}" target="_blank">App Store</a></td>
+      <td><a href="https://apps.apple.com/se/app/id${app.iosAppId}" target="_blank">App Store</a></td>
     </tr>
   `).join('');
 
@@ -146,7 +146,7 @@ async function generateHTML() {
       <td>${app.iosVersion}<br><small style="color: #666;">${app.iosUpdateDate != 'N/A' ? app.iosUpdateDate : ''}</small></td>
       <td>${app.requiredVersion}</td>
       <td><a href="https://play.google.com/store/apps/details?id=${app.androidPackage}" target="_blank">Play Store</a></td>
-      <td><a href="https://apps.apple.com/app/id${app.iosAppId}" target="_blank">App Store</a></td>
+      <td><a href="https://apps.apple.com/se/app/id${app.iosAppId}" target="_blank">App Store</a></td>
     </tr>
   `).join('');
 
