@@ -142,5 +142,13 @@
     "iosAppId": "6742241997",
     "customerId": "7a5b5151-294f-4a34-bc4c-9c31b72692b1",
     "fapiBaseUrl": "https://swe28.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  {
+    "env": "DEMO02",
+    "name": "Cuviva Companion",
+    "androidPackage": "com.cuviva.companion.demo02",
+    "iosAppId": "6608984322",
+    "customerId": "d65b42c8-a314-437a-bcfa-fc5b6440097d",
+    "fapiBaseUrl": "https://demo02.fapi.ck8s.cuvivademo.com/graphql"
   }
 ]
