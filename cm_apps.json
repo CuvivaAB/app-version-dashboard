@@ -16,6 +16,14 @@
     "fapiBaseUrl": "https://swe03.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
+    "env": "SWE04",
+    "name": "IcePharma",
+    "androidPackage": "com.cuviva.companion.icepharma",
+    "iosAppId": "6752775797",
+    "customerId": "e32a3617-89f3-4d8a-b202-3b035d25b9e0",
+    "fapiBaseUrl": "https://swe04.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  {
     "env": "SWE05",
     "name": "Alphatron (Zorgverbinding)",
     "androidPackage": "com.cuviva.companion.alphatron",
