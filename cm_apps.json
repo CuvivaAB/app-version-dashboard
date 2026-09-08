@@ -81,7 +81,7 @@
   },
   {
     "env": "SWE18",
-    "name": "Region Stockholm / Projekt Distansmonitorering",
+    "name": "Region Stockholm Karolinska / HemMonitor",
     "androidPackage": "com.cuviva.companion.sll",
     "iosAppId": "1611138822",
     "customerId": "6a83ed6a-42af-4aec-939c-97f1df176a74",
