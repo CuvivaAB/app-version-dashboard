@@ -32,6 +32,14 @@
     "fapiBaseUrl": "https://swe13.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
+    "env": "SWE16",
+    "name": "Arboga för alla - Personal / Arboga for all - Staff",
+    "androidPackage": "com.cuviva.controltower.arboga",
+    "iosAppId": "6811812328",
+    "customerId": "eb00e4db-8790-4dad-8a77-488c357e2b08",
+    "fapiBaseUrl": "https://swe16.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  {
     "env": "SWE18",
     "name": "Region Stockholm CTM",
     "androidPackage": "com.cuviva.controltower.regionstockholm",
