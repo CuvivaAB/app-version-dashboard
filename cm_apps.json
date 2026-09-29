@@ -71,6 +71,14 @@
     "customerId": "fe5c4007-04bb-4247-94c9-102f34960f26",
     "fapiBaseUrl": "https://swe13.fapi.ck8s.cuvivapro.com/graphql"
   },
+   {
+    "env": "SWE16",
+    "name": "Arboga för alla / Arboga for all",
+    "androidPackage": "com.cuviva.companion.arboga",
+    "iosAppId": "6811838621",
+    "customerId": "eb00e4db-8790-4dad-8a77-488c357e2b08",
+    "fapiBaseUrl": "https://swe16.fapi.ck8s.cuvivapro.com/graphql"
+  },
   {
     "env": "SWE17",
     "name": "GPN@Home",
