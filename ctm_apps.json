@@ -1,4 +1,12 @@
 [
+   {
+    "env": "SWE03",
+    "name": "Uddevalla hos dig - Personal",
+    "androidPackage": "com.cuviva.controltower.uddevalla",
+    "iosAppId": "6823021576",
+    "customerId": "a54cc917-8bdc-40c6-a510-ffacd8c33544",
+    "fapiBaseUrl": "https://swe03.fapi.ck8s.cuvivapro.com/graphql"
+  },
   {
     "env": "SWE06",
     "name": "Sundsvalls Kommun Personal",
@@ -30,6 +38,14 @@
     "iosAppId": "6761245510",
     "customerId": "fe5c4007-04bb-4247-94c9-102f34960f26",
     "fapiBaseUrl": "https://swe13.fapi.ck8s.cuvivapro.com/graphql"
+  },
+  {
+    "env": "SWE15",
+    "name": "Cuviva Control Tower Philips",
+    "androidPackage": "com.cuviva.controltower.philips",
+    "iosAppId": "6816938230",
+    "customerId": "81eaec7c-94fa-4ca8-87c3-06be0b9368d9",
+    "fapiBaseUrl": "https://swe15.fapi.ck8s.cuvivapro.com/graphql"
   },
   {
     "env": "SWE16",
