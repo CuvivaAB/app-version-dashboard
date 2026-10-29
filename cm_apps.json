@@ -72,6 +72,14 @@
     "fapiBaseUrl": "https://swe13.fapi.ck8s.cuvivapro.com/graphql"
   },
    {
+    "env": "SWE15",
+    "name": "Cuviva Companion Philips",
+    "androidPackage": "com.cuviva.companion.philips",
+    "iosAppId": "6779491392",
+    "customerId": "81eaec7c-94fa-4ca8-87c3-06be0b9368d9",
+    "fapiBaseUrl": "https://swe15.fapi.ck8s.cuvivapro.com/graphql"
+  },
+   {
     "env": "SWE16",
     "name": "Arboga för alla / Arboga for all",
     "androidPackage": "com.cuviva.companion.arboga",
